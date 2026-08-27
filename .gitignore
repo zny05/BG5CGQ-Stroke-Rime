@@ -1,0 +1,95 @@
+# ============================================================
+# 【BG5CGQ笔画输入法】敏感信息脱敏
+# 以下内容不应提交到开源仓库
+# ============================================================
+
+# 1. 个人设备信息
+# 手机 WiFi 文件管理 IP 地址（防止泄露用户设备信息）
+*10\.1\.1\.147*
+
+# 2. 个人配置文件
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# 3. 个人部署记录与测试数据
+# 部署日志、测试截图、临时文件
+**/deploy_log*.txt
+**/test_*.log
+**/test_*.txt
+**/debug_*.log
+**/RIMELogger/
+**/Rime/userdb/
+*_userdb.txt
+
+# 4. 个人密钥与凭据
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa*
+id_ed25519*
+*.crt
+*.cer
+**/credentials*
+**/secrets*
+**/.env*
+**/api_key*
+**/token*
+
+# 5. 个人编译产物与缓存
+**/Frameworks/
+**/build/
+**/.build/
+**/DerivedData/
+**/*.xcarchive/
+**/*.ipa
+**/*.app/
+**/*.appex/
+**/*.dylib
+**/*.so
+**/*.a
+
+# 6. 个人方案包（分享用）
+# 方案包仅用于本地测试，不应提交
+**/hamster.yaml.backup
+**/hamster.yaml.local
+**/hamster.yaml.personal
+
+# 7. 个人语言包
+**/zh-Hans.lproj/
+**/zh-Hant.lproj/
+**/zh-HK.lproj/
+**/zh.lproj/
+**/en.lproj/
+
+# 8. 个人图片与资源
+**/Skin/
+**/skins/
+**/Themes/
+**/Resources/SharedSupport/*.zip
+**/Resources/SharedSupport/*.tgz
+
+# 9. 个人配置备份
+**/backups/
+**/backups/*.zip
+**/backups/*.tgz
+**/backups/*.7z
+
+# 10. 个人临时文件
+**/tmp/
+**/temp/
+**/cache/
+**/Cache/
+**/ caches/
+
+# 11. 个人编译缓存
+**/.git/modules/
+**/.cache/
+**/.turbo/
+**/.parcel-cache/

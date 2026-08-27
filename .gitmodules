@@ -1,0 +1,9 @@
+[submodule "deps/chinese-stroke"]
+	path = deps/chinese-stroke
+	url = https://github.com/yukunqian/chinese-stroke.git
+[submodule "deps/Chinese-characters-code-table"]
+	path = deps/Chinese-characters-code-table
+	url = https://github.com/yefeijiang/Chinese-characters-code-table.git
+[submodule "deps/rime-stroke"]
+	path = deps/rime-stroke
+	url = https://github.com/rime/rime-stroke.git
